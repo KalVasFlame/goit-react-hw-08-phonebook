@@ -49,7 +49,7 @@ class ContactForm extends Component {
         <TextField
           type="tel"
           name="number"
-          label="Name"
+          label="Number"
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
           title="Номер телефона должен состоять из цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
           value={number}
